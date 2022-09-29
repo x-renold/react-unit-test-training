@@ -1,0 +1,45 @@
+.api_test_wrapper {
+  max-width: 1440px;
+  background: rgb(48, 48, 48);
+  padding: 40px;
+  border-radius: 16px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 12px;
+}
+
+.user_card {
+  border-radius: 8px;
+  padding: 24px;
+  background: rgb(59, 59, 59);
+
+  .card_title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .card_text {
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 0.6;
+  }
+
+  footer {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 1440px) {
+  .grid {
+    grid-template-columns: auto auto auto;
+  }
+}
+
+@media screen and (max-width: 1080px) {
+  .grid {
+    grid-template-columns: auto auto;
+  }
+}

@@ -1,0 +1,28 @@
+.home_wrapper {
+  color: #fff;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home {
+  padding: 40px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  background: tomato;
+}
+
+.yay {
+  margin-top: 16px;
+  font-size: 16px;
+}
